@@ -1,1 +1,1 @@
-console.log('sdsd')
+import './components/styles/main.scss'

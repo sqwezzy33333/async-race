@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 720.59 217.53" version="1.1">
+  <g id="layer2" stroke="#000" stroke-width="1px" transform="translate(-15.483 -564.79)">
+    <path id="path3685" fill="none" d="m413.39 402.72z"/>
+    <g id="g3714" transform="translate(109.1)">
+      <path id="path2831-1" d="m92.506 728.24 268.21-0.35714s0.35714-3.5714 2.1428-5.7143c1.7857-2.1428 3.5714-2.8571 3.5714-2.8571h1.7857s0 34.286 42.5 32.5c44.615-1.9066 41.429-37.5 41.429-37.5h6.4286v4.6429s93.571-1.0714 95.357-1.0714c1.7857 0 3.9286 0.35714 8.2143-2.8571 4.2857-3.2143 6.4286-5.3572 6.4286-5.3572l30.714 0.35715-12.857-13.929s8.9286-3.5714 8.9286-15.357-13.929-15.357-13.929-15.357l-16.071-6.4286 18.214-18.214-169.29-1.0714-46.071-35.357-0.35715-3.9286s-59.286-6.0714-104.64-6.0714c-45.357 0-72.857 1.0714-72.857 1.0714s-25 14.643-39.286 26.786-21.071 16.786-21.071 16.786l-6.7857 0.35714-3.5714 3.5714s-55.357 0.71428-83.571 1.7857-62.143 2.5-62.143 2.5-17.143 4.6429-23.214 6.7857c-6.0714 2.1428-13.929 5-13.929 7.8571s4.6429 6.7857 3.2143 7.8571-3.9286 2.8572-3.9286 6.4286 4.2857 9.2857 4.2857 9.2857l3.9286 2.5 1.0714 2.1429-9.2857 1.4286s-7.1429 0.35714-6.7857 2.5c0.35714 2.1428 12.143 2.8571 12.143 2.8571s1.4286 8.9286 5 12.5 4.2857 2.5 4.2857 2.5 0.71429 2.1429 3.9286 4.6429 5 2.8571 7.8571 3.2143c2.8571 0.35715 15.357 0.35715 15.357 0.35715s3.2143-2.5 4.6429-2.5 1.7857-0.35715 1.7857-0.35715 2.5 35 41.786 34.286c39.286-0.71429 48.214-30 48.214-30l1.4286-8.2143 1.7857 1.0714 15 13.929z"/>
+      <path id="path3683-7" fill="#212121" d="m271.08 642.51-100.71-0.71429s-15.714 1.0714-16.25-5.7143c-0.53571-6.7857 27.321-28.75 27.321-28.75l12.857-4.4286 82.143-0.21429-5.3571 39.821z"/>
+      <path id="path3687-4" fill="#212121" d="m277.15 642.68 75.893-0.71429-38.214-37.857-31.964-1.0714-5.7143 39.643z"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Old Car Silhouette</dc:title>
+        <dc:date>2010-05-27T18:51:56</dc:date>
+        <dc:description>A Old american car in silhouette!!  ...enjoy!! :-)</dc:description>
+        <dc:source>http://openclipart.org/detail/63409/old-car-silhouette-by-mystica</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>mystica</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>American car</rdf:li>
+            <rdf:li>car</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>old</rdf:li>
+            <rdf:li>old car</rdf:li>
+            <rdf:li>silhouette</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
