@@ -13,6 +13,7 @@ export default class Header {
     this.header.append(this.winnersBtn);
     this.header.append(this.garageBtn);
     document.body.append(this.header);
+    document.body.append(this.mainBlock)
   }
 
   createGarageBtn() {
@@ -26,6 +27,6 @@ export default class Header {
   }
 
   createMainContainer() {
-    this.mainBlock.classList.add('mainContainer');
+    this.mainBlock.classList.add('main');
   }
 }
