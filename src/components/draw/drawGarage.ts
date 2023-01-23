@@ -17,7 +17,7 @@ export default class DrawGarage {
   loader = new Loader();
   animation = new Animation();
   templateCreator = new TemplateCreator();
-  // ---
+  
 
   drawGarage: (obj: State) => void = async (obj) => {
     this.mainSection.drawMainSection(obj);
@@ -72,7 +72,6 @@ export default class DrawGarage {
     this.addListenerToPagination(obj);
     this.addListenerToCreateInput(obj);
     this.addListenerToUpdateInput(obj);
-   // this.addListenerToGenerateBtn(obj);
     this.addListenerToRaceButton(obj);
     this.addListenerToResetButton(obj);
   }
