@@ -36,14 +36,6 @@ const baseConfig = {
         },
       },
       {
-        test: /\.(?:ico|gif|png|jpg|jpeg|svg|webp)$/i,
-        loader: 'file-loader',
-        options: {
-          outputPath: 'assets/images',
-          name: '[name].[ext]',
-        },
-      },
-      {
         test: /\.(woff(2)?|eot|ttf|otf)$/i,
         type: 'asset/resource',
       },

@@ -50,10 +50,12 @@
 }
 
 .car__field {
-  height: 130px;
-  border: none;
-  border-bottom: 5px dashed black;
-  margin-bottom: 20px;
+  height: 140px;
+  background-image: url(../../assets/images/road.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 80px;
+  background-position: 0px 100%;
+  margin-bottom: 40px;
 }
 
 .car__field-top {

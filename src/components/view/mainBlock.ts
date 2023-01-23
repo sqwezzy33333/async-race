@@ -12,10 +12,8 @@ export default class MainSection {
 
   drawMainSection(obj: State) {
     const mainContainer = document.querySelector(".main");
-    console.log(this.garage)
     this.garage.drawGarage(obj);
     this.mainSection.classList.add("mainSection");
-    console.log(this.mainSection)
     this.mainSection.append(this.garage.garageContainer);
     if (mainContainer) {
       mainContainer.innerHTML = "";
