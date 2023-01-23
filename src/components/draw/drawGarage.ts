@@ -9,17 +9,15 @@ import {
   UpdateCar,
 } from '../../types/type';
 import MainSection from '../view/mainBlock';
-//import Animation from './animation';
-//import TemplateCreator from './templateCreator';
+import Animation from './anim';
+import TemplateCreator from './templateCreator';
 
 export default class DrawGarage {
   mainSection = new MainSection();
-
   loader = new Loader();
-
   animation = new Animation();
-
-  //templateCreator = new TemplateCreator();
+  templateCreator = new TemplateCreator();
+  // ---
 
   drawGarage: (obj: State) => void = async (obj) => {
     this.mainSection.drawMainSection(obj);
@@ -43,7 +41,7 @@ export default class DrawGarage {
     data.items.forEach((item: CarInfo) => {
       state.cars.push(item);
       const carField = document.createElement('div');
-      //carField.innerHTML = this.templateCreator.createTemplate(item.name, item.color, item.id);
+      carField.innerHTML = this.templateCreator.createTemplate(item.name, item.color, item.id);
 
       if (garageCars) {
         garageCars.append(carField);
@@ -74,7 +72,7 @@ export default class DrawGarage {
     this.addListenerToPagination(obj);
     this.addListenerToCreateInput(obj);
     this.addListenerToUpdateInput(obj);
-    this.addListenerToGenerateBtn(obj);
+   // this.addListenerToGenerateBtn(obj);
     this.addListenerToRaceButton(obj);
     this.addListenerToResetButton(obj);
   }
@@ -228,17 +226,7 @@ export default class DrawGarage {
     });
   }
 
-  async addListenerToGenerateBtn(obj: State) {
-    const generateBtn = document.querySelector<HTMLButtonElement>('.btnGenerateCars');
-    generateBtn?.addEventListener('click', (event) => {
-      const btn = event.target as HTMLButtonElement;
-      btn.disabled = true;
-     // const cars = this.templateCreator.generateRandomCars();
-      //Promise.all(cars.map(async (car) => this.loader.createCar(car)));
-      this.drawCars(obj);
-      btn.disabled = false;
-    });
-  }
+  
 
   addListenersToCarField(obj: State) {
     this.addListenerToSelectBtn();
@@ -353,8 +341,8 @@ export default class DrawGarage {
     const flag = carContainer?.querySelector<HTMLElement>('.flag-image');
 
     if (car && flag) {
-     // const htmlDistance = Math.floor(this.animation.getDistanceBetweenElements(car, flag) + 60);
-     // state.animation[id] = this.animation.animation(car, htmlDistance, time);
+      const htmlDistance = Math.floor(this.animation.getDistanceBetweenElements(car, flag) + 60);
+      state.animation[id] = this.animation.animation(car, htmlDistance, time);
     }
     const { success } = await this.loader.drive(id);
     if (!success) window.cancelAnimationFrame(obj.animation[id].id);
